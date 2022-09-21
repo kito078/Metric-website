@@ -206,7 +206,7 @@ setInterval(()=>{
 
 const navbar = document.querySelector('#nav');
 const toplink = document.querySelector('.top-link');
-const coTimer = this.document.querySelector('#co-timer')
+const coTimer = this.document.querySelector('#co-timer');
 
 //fixed navbar
 window.addEventListener('scroll', function(){

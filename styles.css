@@ -19,6 +19,7 @@ html{
 body{
     line-height: 1.7;
     font-family: 'Open Sans', sans-serif;
+ 
    
 }
 h2{
@@ -265,7 +266,7 @@ iframe{
 @media screen and (min-width:800px){
     .passion{
         margin-left: 3rem;
-        margin-right: 3rem;
+        margin-right: 3rem; 
     }
     .showcase__header{
         max-width: 60%;
@@ -509,7 +510,6 @@ iframe{
 /* Slider*/
 .sliders{
     margin-top: 3rem;
-    
 }
 .slider__header{
     margin-bottom: 1rem;
