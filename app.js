@@ -94,6 +94,8 @@ function sendMessage(e){
        
         feedbackText.classList.remove('show-feedback-text');
     },2000)
+
+}    
     //let list= document.createElement('h4');
    // list.className ="my-message";
     //let node =document.createTextNode('message sent');
@@ -108,11 +110,13 @@ function sendMessage(e){
 
 
 
+
+ 
+
+  
 const subForm = document.querySelector('#sub-form');
 
-
-
-subForm.addEventListener('submit', e=>{
+subForm.addEventListener('submit', e =>{
     e.preventDefault();
     const subEmail = document.querySelector('.sub-input').value;
     
@@ -123,21 +127,20 @@ subForm.addEventListener('submit', e=>{
         feedbackText.textContent = 'successfully sent';
         feedbackText.classList.add('show-feedback-text');
         subForm.reset();
+        console.log("yes");
     }else{
-        feedBack.textContent = 'email not valid';
-       
+       feedBack.textContent = 'email not valid';
+       console.log('no');
     }
 
     setTimeout(()=>{
         feedbackText.classList.remove('show-feedback-text');
     },2000);
-
-})
-
-
   
 
-}
+});
+
+
 
 /* SLIDER */
 const projects = [
@@ -210,7 +213,7 @@ const coTimer = this.document.querySelector('#co-timer');
 
 //fixed navbar
 window.addEventListener('scroll', function(){
-    console.log(window.pageYOffset)
+    //console.log(window.pageYOffset)
     const scrollHeight = window.pageYOffset;
     const navHeight = navbar.getBoundingClientRect().height;
     
@@ -226,16 +229,8 @@ window.addEventListener('scroll', function(){
         toplink.classList.remove('show-link');
     }
 
-    const coTimer = document.querySelector('#co-timer');
-
-    const timeHeight = coTimer.getBoundingClientRect().height;
     
-    if(scrollHeight > timeHeight){}
-
-    
-})
-
-
+});
 
 
 

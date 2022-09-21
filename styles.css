@@ -79,7 +79,7 @@ a{
     font-size: 1.2rem ;
     color: #555;
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem ;
     letter-spacing: 0.1rem;
     transition: var(--transition);
     
@@ -87,13 +87,14 @@ a{
 
 .links a:hover{
     background: #1FDE82;
-    color: #555;
+    color: #fff;
     padding-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .links{
+    overflow:hidden;
     height: 0;
-    overflow: hidden;
     transition: var(--transition);
     text-align: center;
 
@@ -530,6 +531,8 @@ iframe{
     border-radius: 10px;
    
 }
+
+
 
 .slide__content{
     /*background: rgba(0,0,0,0.75);*/
