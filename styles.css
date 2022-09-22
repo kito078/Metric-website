@@ -59,6 +59,7 @@ a{
 
 .fixed-nav{
     position: fixed;
+    z-index: 100;
     width: 100%;
     box-shadow: var(--light-shadow);
     background: var(--primary-color);
